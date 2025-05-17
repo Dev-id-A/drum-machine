@@ -85,45 +85,45 @@ useEffect(()=>{
         <div className="row justify-content-around">
           <button className={`drum-pad col-3 btn btn-light ${clickedBtn==="Q" ? "no-shadow-box":"shadow-box"}`} id="Heater-1" 
           onClick={() => playAudio("Q")}>Q
-            <audio className="clip" ref={(ref) => audioRefs.current[0] = ref} src="./src/sounds/Heater-1.mp3" id="Q"></audio>
+            <audio className="clip" ref={(ref) => audioRefs.current[0] = ref} src="./public/sounds/Heater-1.mp3" id="Q"></audio>
           </button>
           <button className={`drum-pad col-3 btn btn-light ${clickedBtn==="W" ? "no-shadow-box":"shadow-box"}`} id="Heater-2" 
           onClick={() => playAudio("W")}>W
-            <audio className="clip" ref={(ref) => audioRefs.current[1] = ref} src="./src/sounds/Heater-2.mp3" id="W"></audio>
+            <audio className="clip" ref={(ref) => audioRefs.current[1] = ref} src="./public/sounds/Heater-2.mp3" id="W"></audio>
           </button>
           <button className={`drum-pad col-3 btn btn-light ${clickedBtn==="E" ? "no-shadow-box":"shadow-box"}`} id="Heater-3" 
           onClick={() => playAudio("E")}>E
-            <audio className="clip" ref={(ref) => audioRefs.current[2] = ref} src="./src/sounds/Heater-3.mp3" id="E"></audio>
+            <audio className="clip" ref={(ref) => audioRefs.current[2] = ref} src="./public/sounds/Heater-3.mp3" id="E"></audio>
           </button>
         </div>
 
         <div className="row justify-content-around">
           <button className={`drum-pad col-3 btn btn-light ${clickedBtn==="A" ? "no-shadow-box":"shadow-box"}`} id="Heater-4" 
           onClick={() => playAudio("A")}>A
-            <audio className="clip" ref={(ref) => audioRefs.current[3] = ref} src="./src/sounds/Heater-4.mp3" id="A"></audio> 
+            <audio className="clip" ref={(ref) => audioRefs.current[3] = ref} src="./public/sounds/Heater-4.mp3" id="A"></audio> 
           </button>
           <button className={`drum-pad col-3 btn btn-light ${clickedBtn==="S" ? "no-shadow-box":"shadow-box"}`} id="Clap" 
           onClick={() => playAudio("S")}>S
-            <audio className="clip" ref={(ref) => audioRefs.current[4] = ref} src="./src/sounds/Clap.mp3" id="S"></audio>
+            <audio className="clip" ref={(ref) => audioRefs.current[4] = ref} src="./public/sounds/Clap.mp3" id="S"></audio>
           </button>
           <button className={`drum-pad col-3 btn btn-light ${clickedBtn==="D" ? "no-shadow-box":"shadow-box"}`} id="Open-HH" 
           onClick={() => playAudio("D")}>D
-            <audio className="clip" ref={(ref) => audioRefs.current[5] = ref} src="./src/sounds/Open-HH.mp3" id="D"></audio>
+            <audio className="clip" ref={(ref) => audioRefs.current[5] = ref} src="./public/sounds/Open-HH.mp3" id="D"></audio>
           </button>
         </div>
 
         <div className="row justify-content-around">
           <button className={`drum-pad col-3 btn btn-light ${clickedBtn==="Z" ? "no-shadow-box":"shadow-box"}`} id="Kick-n-Hat" 
           onClick={() => playAudio("Z")}>Z
-            <audio className="clip" ref={(ref) => audioRefs.current[6] = ref} src="./src/sounds/Kick_n_Hat.mp3" id="Z"></audio>
+            <audio className="clip" ref={(ref) => audioRefs.current[6] = ref} src="./public/sounds/Kick_n_Hat.mp3" id="Z"></audio>
           </button>
           <button className={`drum-pad col-3 btn btn-light ${clickedBtn==="X" ? "no-shadow-box":"shadow-box"}`} id="Kick" 
           onClick={() => playAudio("X")}>X
-            <audio className="clip" ref={(ref) => audioRefs.current[7] = ref} src="./src/sounds/Kick.mp3" id="X"></audio>
+            <audio className="clip" ref={(ref) => audioRefs.current[7] = ref} src="./public/sounds/Kick.mp3" id="X"></audio>
           </button>
           <button className={`drum-pad col-3 btn btn-light ${clickedBtn==="C" ? "no-shadow-box":"shadow-box"}`} id="Closed-HH" 
           onClick={() => playAudio("C")}>C
-            <audio className="clip" ref={(ref) => audioRefs.current[8] = ref} src="./src/sounds/Closed-HH.mp3" id="C"></audio>
+            <audio className="clip" ref={(ref) => audioRefs.current[8] = ref} src="./public/sounds/Closed-HH.mp3" id="C"></audio>
           </button>
         </div>
 
