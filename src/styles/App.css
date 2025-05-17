@@ -1,0 +1,114 @@
+#main {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 3px solid black;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  background-color: rgb(107, 106, 106);
+}
+#main #drum-machine {
+  border: 3px solid black;
+  height: 50vh;
+  width: 60vw;
+}
+@media only screen and (max-width: 768px) {
+  #main #drum-machine {
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+}
+#main #drum-machine #pads {
+  height: 100%;
+  padding: 5%;
+}
+#main #drum-machine #pads .row {
+  height: 33.3%;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 2% 12% 2% 12%;
+}
+#main #drum-machine #pads .row .drum-pad {
+  font-size: x-large;
+  font-weight: bold;
+}
+@media only screen and (max-width: 768px) {
+  #main #drum-machine #pads .row .drum-pad {
+    font-size: large;
+  }
+}
+@media only screen and (max-width: 768px) {
+  #main #drum-machine #options {
+    height: 45vh;
+    width: 100%;
+    border-top: 3px solid;
+    margin-left: 50%;
+    transform: translate(-50%);
+  }
+}
+@media only screen and (min-width: 768px) {
+  #main #drum-machine #options {
+    border-left: 3px solid;
+  }
+}
+#main #drum-machine #options #display-box {
+  background-color: #008B8B;
+  margin-top: 10%;
+  margin-left: 50%;
+  transform: translate(-50%);
+  border: 3px solid black;
+  height: 10%;
+  width: 50%;
+  font-size: xx-large;
+  font-weight: bold;
+  text-align: center;
+  border-left: 3px solid;
+}
+@media only screen and (max-width: 768px) {
+  #main #drum-machine #options #display-box {
+    font-size: medium;
+  }
+}
+@media only screen and (min-width: 768px) {
+  #main #drum-machine #options #display-box {
+    font-size: x-large;
+  }
+}
+#main #drum-machine #options #display-box #display {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: relative;
+}
+#main #drum-machine #options #volume {
+  margin-top: 10%;
+  width: 80%;
+  margin-left: 50%;
+  transform: translate(-50%);
+  accent-color: rgb(55, 55, 55);
+  cursor: pointer;
+}
+#main #drum-machine #options #power {
+  margin-left: 50%;
+  transform: translate(-50%);
+  border: 3px solid black;
+  margin-top: 10%;
+  height: 20%;
+  width: 50%;
+  font-size: xx-large;
+  font-weight: bolder;
+  color: black;
+}
+
+.shadow-box {
+  box-shadow: 2px 2px 10px #97FFFF;
+}
+
+.no-shadow-box {
+  box-shadow: none;
+}/*# sourceMappingURL=App.css.map */
